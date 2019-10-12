@@ -1,0 +1,97 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    color: #008CBA;
+}
+
+header {
+    display: flex;
+    height: 15vh;
+    align-items: center;
+}
+
+.game {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    outline: 1px dotted #008CBA;
+    margin: 0 2rem;
+}
+
+.btn-action {
+    background-color: transparent;
+    padding: 1rem;
+    font-size: 7rem;
+    border: 2px solid #0099CC;
+    text-align: center;
+    border-radius: 6px;
+    color: #008CBA;
+    margin: 1rem 0; 
+}
+
+.btn-action:hover {
+    background-color: #008CBA;
+    color: white;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(10, 4vw);
+    grid-template-rows: repeat(10, 4vw);
+    outline: 3px solid #008CBA;
+}
+
+button {
+    background-color: transparent;
+    font-size: 1.5rem;
+    color: #008CBA;
+}
+
+button:hover {
+    background-color: rgb(1, 106, 141);
+}
+
+.flag {
+    font-size: 2.5rem;
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 6px;
+    font-size: 3.5rem;
+    width: 80%;
+    outline: 1px dotted #008CBA;
+}
+
+.number {
+    background-color: green;
+    color: white;
+}
+
+.freezzed {
+    background-color: red;
+}
+
+.freezzed:hover {
+    background-color: red;
+}
+
+.explode {
+    background-color: yellow;
+    font-size: 2.5rem;
+}
+
+.explode:hover {
+    background-color: yellow;
+    font-size: 2.5rem;
+}
